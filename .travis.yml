@@ -1,2 +1,2 @@
 language: java
-script: eval mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+script: mvn clean compile -DskipTests=true -Dmaven.javadoc.skip=true -B -V package
